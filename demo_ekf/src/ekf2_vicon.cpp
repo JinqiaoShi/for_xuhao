@@ -129,7 +129,7 @@ int main(int argc, char** argv)
 
     //TODO: what is q_ve?
     R_ve<<  0 ,-1 , 0,
-            1 , 0 , 0,
+           -1 , 0 , 0,
             0 , 0 ,-1;
     q_ve = Quaterniond(R_ve);
 
